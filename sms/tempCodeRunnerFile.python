@@ -1,9 +1,0 @@
-import streamlit as st
-import pickle
-
-
-model = pickle.load(open('model.pkl','rb'))
-
-st.titl("SMS Classifier")
-st.text_input("Enter the message")
-
